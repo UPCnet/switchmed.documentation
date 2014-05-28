@@ -24,11 +24,15 @@ The site is designed to hold 3 languages: EN / FR (Not enabled) / AR (Not enable
 	* https://devel.upcnet.es/switchmed/fr
 	* https://devel.upcnet.es/switchmed/ar
 
-*The content 	
+The content 	
 --------------
 
- .. HEADER:: The header is generated autmatically. The editor can modify the three pages that holds: About / Contact / Media
- All this content is in the folder: /root/shared/ You can edit directly with this links:
+ **HEADER** 
+  The header is generated automatically. 
+  The editor can modify the three pages that holds: About / Contact / Media
+  All this content is in the folder: /root/shared/ 
+  You can edit directly with this links:
+
 
 	+-----------+-----------------------------------------------------------+
 	| Page      | Link                                                      |
@@ -41,9 +45,14 @@ The site is designed to hold 3 languages: EN / FR (Not enabled) / AR (Not enable
 	+-----------+-----------------------------------------------------------+
 
 
- .. CONTENT:: Here goes all the content of the site. When someone creates a page, it will be shown here.  All this pages, are generated and modified by users.
+ **CONTENT**
+  Here goes all the content of the site.
+  When someone creates a page, it will be shown here.  
+  All this pages, are generated and modified by users.
 
- .. FOOTER:: This content can be modified by editor. In fact, all the footer is a page than can be edited to change this contents
+
+ **FOOTER** 
+  This content can be modified by editor. In fact, all the footer is a page than can be edited to change this contents
 
 	+----------------------------------------+-------------------------------------------------------------+
 	| Page                                   | Link                                                        |
@@ -61,3 +70,34 @@ The site is designed to hold 3 languages: EN / FR (Not enabled) / AR (Not enable
 	|                                        | - https://devel.upcnet.es/switchmed/**ar**/config/footer/   | 
 	+----------------------------------------+-------------------------------------------------------------+
 
+
+Categorizing the content
+------------------------
+  All content can be categorized as Corner Related and as Country related.
+  
+  You can see this categories when you edit the content. 
+
+  For instance, how can you create a new corner or country, used for categorize all the content in the site?
+
+	Create a new **country keyword**:
+	    1. Access to: https://devel.upcnet.es/switchmed/shared/keywords/countries.
+	    2. Click on "Add new..." button, and click on Category.
+	    3. Assign a Display name (summary is not needed).
+
+	Create a new **corner keyword**:
+	    1. Access to: https://devel.upcnet.es/switchmed/shared/keywords/countries.
+	    2. Click on "Add new..." button, and click on Category.
+	    3. Assign a Display name (summary is not needed).    
+
+
+  **Where are the keywords located?**
+
+	+------------------------+------------------------------------------------------------------+
+	| url                    | Link                                                             |
+	+========================+==================================================================+ 
+	| Countries Categories   | - https://devel.upcnet.es/switchmed/shared/keywords/countries/   |
+	+------------------------+------------------------------------------------------------------+
+	| Corner Categories      | - https://devel.upcnet.es/switchmed/shared/keywords/cornerpages/ |
+	+------------------------+------------------------------------------------------------------+
+
+	*All categories can be viewed here: https://devel.upcnet.es/switchmed/shared/keywords/folder_contents*
