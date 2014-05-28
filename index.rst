@@ -3,31 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the SWITCHMED Project Documentation!
+SWITCHMED Project Documentation!
 ===============================================
 
 This is the main doc of the documentation. 
 
 We have two categories:
 
-    * ulearn
-    * website
+    * Social Platform (http://ulearn.upcnet.es/switchmed)
+    * Web Platform (http://devel.upcnet.es/switchmed)
 
 
   http://switchmed.readthedocs.org/
 
 .. note::
 
-    This is the website `web`_ with the manual of reStructuredText. You can use all that permits  `Sphinx`_.
+    This is the `web`_ with the manual of reStructuredText. You can use all that permits  `Sphinx`_.
 
 .. _web: http://sphinx.pocoo.org/rest.html
 .. _Sphinx: http://sphinx.pocoo.org/
 
 
-ULEARN
-=======
 
-This document talks about all the content inside this website: http://ulearn.upcnet.es/switchmed.
+SOCIAL PLATFORM
+===============
+
+This document shows information related with the website: http://ulearn.upcnet.es/switchmed.
 
 .. toctree::
    :maxdepth: 2
@@ -36,10 +37,10 @@ This document talks about all the content inside this website: http://ulearn.upc
    ulearn/*
 
 
-WEBSITE
-========
+WEB PLATFORM
+============
 
-This another document talks about things related to site: http://www.switchmed.eu
+This document talks about things related to site: http://www.switchmed.eu
 
 .. toctree::
    :maxdepth: 2

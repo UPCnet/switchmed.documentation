@@ -1,16 +1,18 @@
-WEBSITE
-==================
+WEB PLATFORM
+=============
 :URL: http://www.switchmed.eu
 
 
 Introduction
 ---------------
-This manual tries to explain all the possibilities of the website, and explain basically how to create content in the web.
-Firstly, we explain all kind of elements that can be created in the website and where to create them to make a correct use of the site.
+This manual explains all the possibilities of the website, and explain basically how to create content in the web, and where to put the files..
+Firstly, we explain all kind of elements that can be created in the website and then we explain where create them to make a correct use of the site.
 
 In all this file:
     * When we talk about "Social Network", we are talking about **ulearn.upcnet.es/switchmed**
     * When we talk about "External Tool/Web platform", we are talking about **devel.upcnet.es/switchmed**
+
+Let's go!	
 
 
 Contents of the site
@@ -33,9 +35,9 @@ The content
 
  **HEADER** 
   The header is generated automatically. 
-  The editor can modify the three pages that holds: About / Contact / Media
-  All this content is in the folder: /root/shared/ 
-  You can edit directly with this links:
+  The editor can modify the three pages involved: About / Contact / Media
+  All this content is located in folder: */shared/* 
+  Now, in this table, you can see all the links related to this contents:
 
 
 	+-----------+-----------------------------------------------------------+
@@ -50,9 +52,26 @@ The content
 
 
  **CONTENT**
-  Here goes all the content of the site.
-  When someone creates a page, it will be shown here.  
-  All this pages, are generated and modified by users.
+  Here goes all the main content of the site (pges / Folders / Views...).
+  When someone creates a page, it will be shown here, the header and footer remain still visible.
+  All this pages, are generated and modified by users (depending on the current role, with different permissions)
+
+
+	+----------------------------------+-------------------------------------------------------------+
+	| Page                             | Link                                                        |
+	+==================================+=============================================================+ 
+	| strategic partnerships Carousel  | - https://devel.upcnet.es/switchmed/**en**/config/footer/   |
+	|                                  | - https://devel.upcnet.es/switchmed/**fr**/config/footer/   |
+	|                                  | - https://devel.upcnet.es/switchmed/**ar**/config/footer/   | 
+	+----------------------------------+-------------------------------------------------------------+
+	| List country hubs                | - /config/footer/strategic                                  | 
+	+----------------------------------+-------------------------------------------------------------+
+	| join the action page             | - /config/footer/join-actions                               |
+	+----------------------------------+-------------------------------------------------------------+
+	| footer page                      | - https://devel.upcnet.es/switchmed/**en**/config/footer/   |
+	|   (include logos and text)       | - https://devel.upcnet.es/switchmed/**fr**/config/footer/   |
+	|                                  | - https://devel.upcnet.es/switchmed/**ar**/config/footer/   | 
+	+----------------------------------+-------------------------------------------------------------+
 
 
  **FOOTER** 
