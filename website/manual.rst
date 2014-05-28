@@ -27,11 +27,8 @@ The site is designed to hold 3 languages: EN / FR (Not enabled) / AR (Not enable
 *The content 	
 --------------
 
- ** HEADER
- The header is generated autmatically.
- The editor can modify the three pages that holds: About / Contact / Media
- All this content is in the folder: /root/shared/
- You can edit directly with this links:
+ .. HEADER:: The header is generated autmatically. The editor can modify the three pages that holds: About / Contact / Media
+ All this content is in the folder: /root/shared/ You can edit directly with this links:
 
 	+-----------+-----------------------------------------------------------+
 	| Page      | Link                                                      |
@@ -44,27 +41,23 @@ The site is designed to hold 3 languages: EN / FR (Not enabled) / AR (Not enable
 	+-----------+-----------------------------------------------------------+
 
 
- ** CONTENT
- Here goes all the content of the site. When someone creates a page, it will be shown here.
- All this pages, are generated and modified by users.
+ .. CONTENT:: Here goes all the content of the site. When someone creates a page, it will be shown here.  All this pages, are generated and modified by users.
 
- ** FOOTER
- This content can be modified by editor.
- In fact, all the footer is a page than can be edited to change this contents
+ .. FOOTER:: This content can be modified by editor. In fact, all the footer is a page than can be edited to change this contents
 
-	+----------------------------------------+-----------------------------------------------------------+
-	| Page                                   | Link                                                      |
-	+========================================+===========================================================+ 
-	| strategic partnerships Carousel        | https://devel.upcnet.es/switchmed/**en**/config/footer/   |
-	|                                        | https://devel.upcnet.es/switchmed/**fr**/config/footer/   |
-	|                                        | https://devel.upcnet.es/switchmed/**ar**/config/footer/   | 
-	+----------------------------------------+-----------------------------------------------------------+
-	| country hubs                           |/config/footer/strategic                                   | 
-	+----------------------------------------+-----------------------------------------------------------+
-	| join the action page                   | /config/footer/join-actions                               |
-	+----------------------------------------+-----------------------------------------------------------+
-	| footer page (include logos and text)   | https://devel.upcnet.es/switchmed/**en**/config/footer/   |
-	|                                        | https://devel.upcnet.es/switchmed/**fr**/config/footer/   |
-	|                                        | https://devel.upcnet.es/switchmed/**ar**/config/footer/   | 
-	+----------------------------------------+-----------------------------------------------------------+
+	+----------------------------------------+-------------------------------------------------------------+
+	| Page                                   | Link                                                        |
+	+========================================+=============================================================+ 
+	| strategic partnerships Carousel        | - https://devel.upcnet.es/switchmed/**en**/config/footer/   |
+	|                                        | - https://devel.upcnet.es/switchmed/**fr**/config/footer/   |
+	|                                        | - https://devel.upcnet.es/switchmed/**ar**/config/footer/   | 
+	+----------------------------------------+-------------------------------------------------------------+
+	| country hubs                           | - /config/footer/strategic                                  | 
+	+----------------------------------------+-------------------------------------------------------------+
+	| join the action page                   | - /config/footer/join-actions                               |
+	+----------------------------------------+-------------------------------------------------------------+
+	| footer page (include logos and text)   | - https://devel.upcnet.es/switchmed/**en**/config/footer/   |
+	|                                        | - https://devel.upcnet.es/switchmed/**fr**/config/footer/   |
+	|                                        | - https://devel.upcnet.es/switchmed/**ar**/config/footer/   | 
+	+----------------------------------------+-------------------------------------------------------------+
 
